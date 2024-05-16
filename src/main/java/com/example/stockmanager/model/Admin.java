@@ -1,4 +1,4 @@
-package model;
+package com.example.stockmanager.model;
 
 public class Admin {
 

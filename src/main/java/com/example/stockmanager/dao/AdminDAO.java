@@ -1,8 +1,8 @@
-package dao;
+package com.example.stockmanager.dao;
 
 import javax.ejb.Remote;
-import model.Admin;
-import db.mysqlDB;
+import com.example.stockmanager.model.Admin;
+import com.example.stockmanager.db.mysqlDB;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
