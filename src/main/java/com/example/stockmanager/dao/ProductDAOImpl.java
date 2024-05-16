@@ -9,7 +9,6 @@ import java.sql.SQLException;
 import com.example.stockmanager.db.mysqlDB;
 import java.util.ArrayList;
 import java.util.List;
-import com.example.stockmanager.model.Admin;
 import com.example.stockmanager.model.Product;
 
 @Stateless
