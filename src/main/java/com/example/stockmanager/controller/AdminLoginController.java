@@ -6,8 +6,8 @@
 package com.example.stockmanager.controller;
 
 import com.example.stockmanager.dao.AdminDAO;
+import com.example.stockmanager.model.Admin;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.SQLException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -19,7 +19,6 @@ import javax.ejb.*;
 import javax.servlet.http.HttpSession;
 
 import com.example.stockmanager.dao.AdminDAOImpl;
-import com.example.stockmanager.model.Admin;
 
 @WebServlet(name = "AdminLogin", urlPatterns = {"/AdminLogin", "/loginAdmin", "/logoutAdmin"})
 public class AdminLoginController extends HttpServlet {
