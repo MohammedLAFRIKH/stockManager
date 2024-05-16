@@ -28,7 +28,7 @@
                         <div class="card-body p-4 p-sm-5">
                             <div class="text-center">
                                 <img src="${pageContext.request.contextPath}/img/logo.png" height="90" alt="" loading="lazy" />
-                                <h5 class="lead" style="margin-top:20px;">Inventory Management System</h5>
+                                <h5 class="lead" style="margin-top:20px;">StockManager: System de gestion de stock</h5>
                             </div>
                             <hr>
 
@@ -48,7 +48,7 @@
                                 </div>
                                 <hr>
 
-                                <p class="text-center text-muted">© 2022 IMS</p>
+                                <p class="text-center text-muted">© 2024</p>
 
                             </form>
                         </div>
