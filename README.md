@@ -1,1 +1,1 @@
-## StockerManager: System de gestion de stock
+## StockManager: System de gestion de stock
