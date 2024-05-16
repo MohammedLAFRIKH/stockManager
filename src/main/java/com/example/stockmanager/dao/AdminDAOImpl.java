@@ -1,17 +1,15 @@
-package dao;
+package com.example.stockmanager.dao;
 
 import javax.ejb.Stateless;
-import db.mysqlDB;
+import com.example.stockmanager.db.mysqlDB;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
-import model.Admin;
+import com.example.stockmanager.model.Admin;
 
 @Stateless
 public class AdminDAOImpl implements AdminDAO {
