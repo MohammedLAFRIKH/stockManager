@@ -22,8 +22,7 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `admin` (`adminId`, `adminFname`, `adminLname`, `adminUsername`, `adminPass`) VALUES
-                                                                                              (1, 'Haifa', 'Nasuha', 'admin', 'admin'),
-                                                                                              (2, 'Aliaa', 'Aqilah', 'admin2', 'admin2');
+                                                                                              (2, 'Ali', 'Zoubair', 'admin2', 'admin2');
 
 -- --------------------------------------------------------
 
@@ -189,8 +188,6 @@ CREATE TABLE `staff` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `staff` (`staffId`, `staffFname`, `staffLname`, `staffAddress`, `staffPass`) VALUES
-                                                                                             (1, 'Muhamad', 'Ashraff', 'No 6, Jalan Pelangi 32, Taman Pelangi, 51500, Cheras, WP Kuala Lumpur', 'Test1'),
-                                                                                             (2, 'Muhammad', 'Hadif', '1016, Jalan Sultan Ismail, 51500, WP Kuala Lumpur', 'Test2'),
                                                                                              (3, 'Ahmad', 'Ali', 'TRG', 'Test789');
 
 --
@@ -290,3 +287,7 @@ ALTER TABLE `product`
     ADD CONSTRAINT `add` FOREIGN KEY (`prodAdded`) REFERENCES `admin` (`adminId`),
   ADD CONSTRAINT `category` FOREIGN KEY (`catId`) REFERENCES `category` (`catId`);
 COMMIT;
+
+
+INSERT INTO `staff` (`staffId`, `staffFname`, `staffLname`, `staffAddress`, `staffPass`) VALUES
+                                                                                             (1, 'Ali', 'Zoubair', 'Agadir', 'Test1')
